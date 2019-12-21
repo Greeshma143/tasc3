@@ -1,0 +1,132 @@
+<TableLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:stretchColumns="1"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:text="EmployeeName"
+            android:textSize="20dp"
+
+            />
+        <EditText
+            android:id="@+id/empname"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+
+
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:text="Designation"/>
+        <EditText
+            android:id="@+id/desi"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+
+
+    </TableRow>
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:text="Salary"/>
+        <EditText
+            android:id="@+id/sal"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+
+
+    </TableRow>
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:text="Place"/>
+        <EditText
+            android:id="@+id/plce"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+
+
+    </TableRow>
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:textSize="20dp" android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:text="CompanyName"/>
+        <EditText
+            android:id="@+id/cmpnyname"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+
+
+    </TableRow>
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:text="EmailId"/>
+        <EditText
+            android:id="@+id/emil"
+            android:inputType="textEmailAddress"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+
+
+    </TableRow>
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:text="MobileNo"/>
+        <EditText
+            android:id="@+id/mob"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+
+
+    </TableRow>
+
+    <TableRow>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
+        <Button
+            android:id="@+id/but"
+            android:textSize="30dp"
+            android:text="SUBMIT" android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+    </TableRow>
+
+
+
+
+
+</TableLayout>
